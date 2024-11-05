@@ -1,5 +1,3 @@
-# LITA_Class_Documentation
-
 ### Project Title: Meadow and Still Waters LTD Sales Analysis
 
 [Project Overview](#project-overview)
@@ -57,8 +55,8 @@ Exploratory Data Analysis entails Data Exploration to provide insights in the da
   At this phase, some basic lines of codes, queries and DAX expressions where executed:
 
   ```SGL
-  SELECT * FROM TABLE1
-  WHERE CONDITION = TRUE
+  SELECT * FROM SALES DATA
+  ORDER BY MONTH
   ```
 
   ### Data Visualisation
