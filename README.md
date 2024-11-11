@@ -20,7 +20,7 @@ This is a project report of a salesdata of a retail store. The main objective of
 
 ### Data Sources:
 
-The primary source of data used is Data Sale and this is an open data that can be downloaded from any data repository site
+The primary source of data used is Data Sale is information on previous transactions, sales trends, product details and revenue generated
 ### Tools used
 - Microsoft Excel [Download here](https://microsoftexcel.com)
    1. for Data Cleaning
@@ -31,16 +31,15 @@ The primary source of data used is Data Sale and this is an open data that can b
 - Power BI for Data Analysis and Visualization
 - Github for Portfolio Building
 
-### Data Cleaning and Preparations
-
+### Data Cleaning, Preparations and Transformation
 In the initial phase of Data Cleaning and Preparations, we embarked on these tasks:
- 1. Data loading and Inspection
- 2. Handling Missing variables
- 3. Data Cleaning and Formatting
+ 1. Data loading and Inspection which entails checking for missing data, duplicates and other inconsistencies to ensure data accuracy.
+ 2. Review regional performance where sales perfomance was compared across regions to identify the fastest growing market using different data sets
+ 3. Key Metrics Calculations where total revenue and average revenue for each region were obtained using Microsoft Excel.
 
 ### Exploratory Data Analysis
 
-Exploratory Data Analysis entails Data Exploration to provide insights in the data. Insights like:
+Exploratory Data Analysis entails Data Exploration to provide insights in the data. These insights are detailed from critical evaluations like:
 - retrieve the total sales for each product category
 - find the number of sales transactions in each region
 - find the highest-selling product by total sales value
@@ -50,9 +49,32 @@ Exploratory Data Analysis entails Data Exploration to provide insights in the da
 - calculate the percentage of total sales contributed by each region
 - identify products with no sales in the last quarter
 
-  ### Data Analysis
+  ### Performance Overview
+  1. Regional Overview: Sales performance of all products across the four different regions was analysed to determine the region with the fastest sale within the two-year period of 2023 and 2024
 
-  At this phase, some basic lines of codes, queries and DAX expressions where executed:
+Pivot table and dashboard where used to analyse, summarise and visualize the dataset 
+Interpretations:
+________________________________________
+1.	Overall Sales Trends by Month
+o	The SOUTHERN REGION had the overall highest quantity sold with 9,930pcs for the two Year periods(2023&2024).
+o	FEBRUARY AND JUNE are the top most selling months with total quantity sold of 9,930pcs and 9,904pcs for both for the two year periods.
+o	SOUTHERN REGION had the highest total sales in the months of FEBRUARY and JUNE respectively.
+o	WEST and NORTH REGION has the lowest overall quantity sold for DECEMBER and MAY respectively for the two year periods with total quantity sold of 2,465pcs and 2,482pcs for both regions.
+2.	Overall Revenue Trends by Month
+o	The SOUTHERN REGION had the highest Revenue of 927,820.00 for the two Year periods(2023&2024).
+o	WEST and NORTH REGION has the lowest Total Revenue for APRIL and SEPTEMBER respectively for the two year periods with Total Revenue of 46,865.00 and 34,720.00 respectively for both regions.
+3.	Insights(Strategic Implications to the Business)
+o	WEST REGION has the lowest total revenue of 46,865.00 with an average price of 22.03 for the entire region.
+o	SOUTH REGION has the highest total revenue of 927,820.00 and average unit price of 38.02 for the entire region.
+Conclusion
+________________________________________
+•	The business needs to focus on the WEST and NORTH REGION and implement ways to improve their sales and revenue. HATS and JACKETS have the lowest sales and revenue asides SHIRTS for products sold in the NORTH.
+•	More research needs to be done on why there is low demand for HATS and JACKETS in the NORTH. Probably better designs or other products needs to be introduced to increase the demands.
+•	More promotional contents/activities need to be introduced in both the region with the best sales/revenue(SOUTH) and also the region with the OVERALL poorest performances(WEST). Promotional contents like Billboards, tv adverts, in-store-fliers for special sales discounts, black friday, etc. to encourage more sales.
+
+### Data Analysis
+
+   At this phase, some basic lines of codes, queries and DAX expressions where executed:
 
   ```SGL
   SELECT * FROM SALES DATA
