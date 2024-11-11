@@ -16,7 +16,7 @@
 
 ### Project Overview
 
-This project is aimed at providing details into the performance, output and of sales and products within the
+This is a project report of a salesdata of a retail store. The main objective of this project is identify trends, analyse and evaluate the sales performance of these products: Shoes, Gloves, Hat, Jacket and Shirt  in 4 different regions: North, South, East and West. This project is focused on reviewing customer relationship, increasing sales efficiency as well as improve the revenue growth of the company based on monthly overview performance of the company 
 
 ### Data Sources:
 
