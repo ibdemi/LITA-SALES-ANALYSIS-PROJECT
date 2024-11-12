@@ -10,6 +10,8 @@
 
 [Exploratory Data Analysis](#exploratory-data-analysis)
 
+[Performance Overview](#performance-overview)
+
 [Data Analysis](#data-analysis)
 
 [Data Visualisation](#data-visualisation)
@@ -50,27 +52,53 @@ Exploratory Data Analysis entails Data Exploration to provide insights in the da
 - identify products with no sales in the last quarter
 
   ### Performance Overview
-  1. Regional Overview: Sales performance of all products across the four different regions was analysed to determine the region with the fastest sale within the two-year period of 2023 and 2024
+ 1. Regional Overview: Sales performance of all products across the four different regions was analysed to determine the region with the fastest sale          within the two-year period of 2023 and 2024
 
-Pivot table and dashboard where used to analyse, summarise and visualize the dataset 
-Interpretations:
+    Pivot table and dashboard where used to analyse, summarise and visualize the dataset 
+Implications:
 ________________________________________
-1.	Overall Sales Trends by Month
-o	The SOUTHERN REGION had the overall highest quantity sold with 9,930pcs for the two Year periods(2023&2024).
-o	FEBRUARY AND JUNE are the top most selling months with total quantity sold of 9,930pcs and 9,904pcs for both for the two year periods.
-o	SOUTHERN REGION had the highest total sales in the months of FEBRUARY and JUNE respectively.
-o	WEST and NORTH REGION has the lowest overall quantity sold for DECEMBER and MAY respectively for the two year periods with total quantity sold of 2,465pcs and 2,482pcs for both regions.
-2.	Overall Revenue Trends by Month
-o	The SOUTHERN REGION had the highest Revenue of 927,820.00 for the two Year periods(2023&2024).
-o	WEST and NORTH REGION has the lowest Total Revenue for APRIL and SEPTEMBER respectively for the two year periods with Total Revenue of 46,865.00 and 34,720.00 respectively for both regions.
-3.	Insights(Strategic Implications to the Business)
-o	WEST REGION has the lowest total revenue of 46,865.00 with an average price of 22.03 for the entire region.
-o	SOUTH REGION has the highest total revenue of 927,820.00 and average unit price of 38.02 for the entire region.
-Conclusion
+	Overall Sales Trends by Month
+-	The Eastern Region had the highest quantity of products sold at 2,481pcs
+-  March and August are the top most selling months with each quantity sold of 997pcs and 996pcs respectively
+-	Southern Region had the highest total sales in the months of FEBRUARY and JUNE respectively.
+-	Western and Northern Regions have the lowest overall quantity sold for November and December respectively
+-	Western Region has the lowest total revenue of 300,345.00 at 14.3% of the total revenue of the entire region.
+-  Northern Region has a total revenue of 387,000 at 18.4% of the total revenue of the region
+-	Southern Region has the highest total revenue of 927,820.00 at 44.18% of the total revenue of the entire regions.
+Recommendation:
 ________________________________________
-•	The business needs to focus on the WEST and NORTH REGION and implement ways to improve their sales and revenue. HATS and JACKETS have the lowest sales and revenue asides SHIRTS for products sold in the NORTH.
-•	More research needs to be done on why there is low demand for HATS and JACKETS in the NORTH. Probably better designs or other products needs to be introduced to increase the demands.
-•	More promotional contents/activities need to be introduced in both the region with the best sales/revenue(SOUTH) and also the region with the OVERALL poorest performances(WEST). Promotional contents like Billboards, tv adverts, in-store-fliers for special sales discounts, black friday, etc. to encourage more sales.
+-	The business needs to focus on the Western and North Regions and implement diverse means to improve sales as well as revenue.
+-	More research needs to be done to determine the root cause of low sales in these regions. Improved designs of existing products as well as other           products should be introduced to boost sales
+-	Promotional contents like Billboards, tv adverts, in-store-fliers for special sales discounts, black friday, etc. to encourage more sales should be        introduced in the Western and Northern Regions respectively
+-	Increase stock and promote products that are in high demand.
+-	Review pricing strategies for low-performing products to make them more attractive or bundle them with popular items to increase sales.
+
+2. Sales Performance Analysis: Evaluate overall sales trends, identify top-selling products, and assess the performance of different sales channels
+   Pivot table and dashboard where used to analyse, summarise and visualize the dataset
+Implications:
+________________________________________
+	Overall Sales Trends for 2023 and 2024
+-	Hat and Shoes are the top two selling products wth total sales of 15,929 pcs and 14,402pcs respectively
+-  May was the lowest sales month with 994pcs of Jackets sold in the Year 2023 and 1,488pcs of Jackets sold in the Year 2024.
+-  April is the second lowest sales month with a total of N1,485.00 in 2023 and N1,972.00 in 2024
+-	February and June are the top most selling months with total quantity sold of 9,930pcs and 9,904pcs for both for the two year periods.
+-	Jackets and Socks were the least sold products with a total of 5,454pcs and 7,921 pcs sold respectively 
+-  Shoes had the highest revenue of N613,380 followed by Shirts with a total revenue of N465,600 respectively
+-  Socks had the lowest revenue of N180,785 followed by Jacket with a total revenue of N208,230 each
+-	The Southern Region had the highest quantity sold at 2,481pcs sold and Western Region with the lowest quantity sold at 2,477 pcs sold.
+-	Shoes and Gloves were top selling products in the Southern Region with quantity sold of 9,930PCS and 9,904pcs for each.
+Recommendation:
+________________________________________
+-	It is recommended that sales should be improved in the Southern Region by introducing incentives to both the workers  in the stores and prospective        buyers.
+-	The prices of Jackets as well as the stock of these Jackets in the various regions should be reviewed to improve sales. Different designs of these         Jackets can be displaced in a more visible area in the store to attack buyers
+-	Marketing strategies like BUY 1 GET 1 FREE and discounts should to introduced to encourage more sales.
+                                 
+3. Total revenue by region: The overall revenue from the sale of different products in the various regions for 2023 and 2024 were analysed using
+   Pivot table and dashboard used to analyse, summarise and visualize the dataset.
+Implications:
+________________________________
+1.	Overall Revenue Trends by Month and Year
+
 
 ### Data Analysis
 
